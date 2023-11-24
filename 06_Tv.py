@@ -15,7 +15,7 @@ class Tv:
                 else:
                     break
             
-            self.canal = tempCanal
+        self.canal = tempCanal
     
     def aumentaVolume(self):
         if self.volume == 100:
